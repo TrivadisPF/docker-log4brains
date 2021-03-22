@@ -4,11 +4,4 @@ project:
   tz: Europe/Paris
   adrFolder: ./docs/adr
 
-  packages:
-    - name: core
-      path: ./packages/core
-      adrFolder: ./packages/core/docs/adr
-
-    - name: web
-      path: ./packages/web
-      adrFolder: ./packages/web/docs/adr
+  packages: []
