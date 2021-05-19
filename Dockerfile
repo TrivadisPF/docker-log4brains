@@ -17,7 +17,7 @@ WORKDIR /usr/src/app
 
 # install it globally and overwrite the dependencies (hack until it is fixed in the official log4brains repo)
 RUN npm install -g log4brains
-RUN cp -r node_modules/ /usr/local/lib/node_modules/log4brains
+//RUN cp -r node_modules/ /usr/local/lib/node_modules/log4brains
 
 WORKDIR ${ADR_HOME}
 
