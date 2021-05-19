@@ -11,9 +11,9 @@ env ADR_HOME=/opt/adr
 WORKDIR /usr/src/app
 
 # install it first locally, to make sure that the dependencies to next are correct (10.0.7)
-COPY package-lock.json ./
-COPY package.json ./
-RUN npm install
+#COPY package-lock.json ./
+#COPY package.json ./
+#RUN npm install
 
 # install it globally and overwrite the dependencies (hack until it is fixed in the official log4brains repo)
 RUN npm install -g log4brains
